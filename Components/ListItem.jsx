@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
-import { useDispatch, useSelector } from 'react-redux';
+import { useDispatch } from 'react-redux';
 import { setLike, addReplyComment } from '../store/reducers'
 import Form from './Utils/Form'
-import { nanoid } from '@reduxjs/toolkit';
+
 
 function ListItem(props) {
 
