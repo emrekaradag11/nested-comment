@@ -1,5 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
 import '../styles/style.scss'
+import '../styles/globals.css'
 import { Provider } from 'react-redux';
 import store from './../store/';
 
