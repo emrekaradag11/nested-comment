@@ -85,8 +85,8 @@ function ListItem(props) {
                         </div>
                         <div className="col-auto">
                             <div className="badge bg-info align-middle">{props.vote}</div>
-                            <button onClick={() => setLikes()} className='fa fa-heart btn'></button>
-                            <button onClick={() => setActiveForm(activeForm === 'd-none' ? '' : 'd-none')} className='fa fa-reply btn'></button>
+                            <button onClick={() => setLikes()} className='bi bi-heart btn'></button>
+                            <button onClick={() => setActiveForm(activeForm === 'd-none' ? '' : 'd-none')} className='bi bi-reply btn'></button>
                         </div>
                     </div>
                 </div>
